@@ -44,7 +44,7 @@
                 <span class="panorama__autor-time">(5 минут назад)</span>
               </p>
               <p class="panorama__autor-comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-              <div class="panorama__autor-like lile">
+              <div class="panorama__autor-like like">
                 <p class="like__current">Нравится: 215</p>
                 <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
               </div>
@@ -63,7 +63,7 @@
                   <span class="panorama__autor-time">(5 часов назад)</span>
                 </p>
                 <p class="panorama__autor-comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-                <div class="panorama__autor-like lile">
+                <div class="panorama__autor-like like">
                   <p class="like__current">Нравится: 356</p>
                   <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
                 </div>
@@ -81,7 +81,7 @@
                   <span class="panorama__autor-time">(12 часов назад)</span>
                 </p>
                 <p class="panorama__autor-comment">Соседи будут рады!</p>
-                <div class="panorama__autor-like lile">
+                <div class="panorama__autor-like like">
                   <p class="like__current">Нравится: 666</p>
                   <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
                 </div>
@@ -99,7 +99,7 @@
                   <span class="panorama__autor-time">(20 часов назад)</span>
                 </p>
                 <p class="panorama__autor-comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
-                <div class="panorama__autor-like lile">
+                <div class="panorama__autor-like like">
                   <p class="like__current">Нравится: 215</p>
                   <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
                 </div>
@@ -117,7 +117,7 @@
                   <span class="panorama__autor-time">(25 часов назад)</span>
                 </p>
                 <p class="panorama__autor-comment">Самая кубанская в мире!</p>
-                <div class="panorama__autor-like lile">
+                <div class="panorama__autor-like like">
                   <p class="like__current">Нравится: 215</p>
                   <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
                 </div>
@@ -135,7 +135,7 @@
                   <span class="panorama__autor-time">(40 часов назад)</span>
                 </p>
                 <p class="panorama__autor-comment">Где снег-то?</p>
-                <div class="panorama__autor-like lile">
+                <div class="panorama__autor-like like">
                   <p class="like__current">Нравится: 150</p>
                   <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
                 </div>
@@ -153,7 +153,7 @@
                   <span class="panorama__autor-time">(45 часов назад)</span>
                 </p>
                 <p class="panorama__autor-comment">Всем GM и взаимные лайки!</p>
-                <div class="panorama__autor-like lile">
+                <div class="panorama__autor-like like">
                   <p class="like__current">Нравится: 2560</p>
                   <a class="like__button"><img src="img/heart.svg" width="13" height="12" alt="Лайк"></a>
                 </div>
@@ -172,21 +172,21 @@
               <img src="img/preview-photo.jpg" width="300" height="400" alt="">
             </div>
             <ul class="editor-post__list slider">
-              <li class="editor-post__item  slider-editor--current">
-                <label for="crop"></label>
-                <input type="range" id="crop" name="crop">
+              <li class="editor-post__item editor-post__item--active">
+                <label class="editor-post__crop" for="crop"></label>
+                <input class="editor-post__range" type="range" id="crop" name="crop">
               </li>
               <li class="editor-post__item">
-                <label for="fill"></label>
-                <input type="range" id="fill" name="fill">
+                <label class="editor-post__fill" for="fill"></label>
+                <input class="editor-post__range" type="range" id="fill" name="fill">
               </li>
               <li class="editor-post__item">
-                <label for="contrast"></label>
-                <input type="range" id="contrast" name="contrast">
+                <label class="editor-post__contrast" for="contrast"></label>
+                <input class="editor-post__range" type="range" id="contrast" name="contrast">
               </li>
             </ul>
             <div class="editor-post__toogles slider__editor">
-              <button class="crop-svg editor-post__toogle editor__toogle--current"></button>
+              <button class="crop-svg editor-post__toogle slider__editor--current"></button>
               <button class="fill-svg editor-post__toogle"></button>
               <button class="contrast-svg editor-post__toogle"></button>
             </div>
@@ -201,7 +201,7 @@
     <footer class="page-footer">
       <div class="page-footer__wrapper">
         <div class="page-footer__logo logo">
-          <img class="logo-un" src="img/logotype-universal.svg" width="145" height="40" alt="Логотип приложения Приложение «Пинк»">
+          <img class="logo__un" src="img/logotype-universal.svg" width="145" height="40" alt="Логотип приложения Приложение «Пинк»">
         </div>
         <div class="page-footer__social social">
           <ul class="social__list">
